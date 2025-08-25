@@ -8,6 +8,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@netlify/vite-plugin-react-router": "^1.0.1",
     "@remix-run/node-fetch-server": "0.8.0",
     "@xyd-js/components": "^0.0.0-build-d97dca6-20250821231438",
     "codehike": "^1.0.7",

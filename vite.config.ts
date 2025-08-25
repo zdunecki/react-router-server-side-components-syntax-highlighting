@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "vite";
 import devtoolsJson from "vite-plugin-devtools-json";
+import netlifyPlugin from '@netlify/vite-plugin-react-router' 
 
 export default defineConfig({
   plugins: [
@@ -16,5 +17,6 @@ export default defineConfig({
       },
     }),
     devtoolsJson(),
+    netlifyPlugin()
   ],
 });
